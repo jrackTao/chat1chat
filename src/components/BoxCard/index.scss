@@ -1,0 +1,30 @@
+@import '../../pages/style.scss';
+
+.boxcard-c {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.boxcard-l {
+  padding: 16px 24px;
+}
+
+.boxcard-r {
+  display: flex;
+  flex-direction: column;
+
+  .boxcard-n {
+    font-size: 32px;
+  }
+
+  .boxcard-v {
+    color: $light-color;
+  }
+
+}
+
+.boxcard-t {
+  position: absolute;
+  right: 20px;
+}

@@ -1,0 +1,36 @@
+@import './theme.scss';
+
+@import "~taro-ui/dist/style/components/nav-bar.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/avatar.scss";
+@import "~taro-ui/dist/style/components/badge.scss";
+@import "~taro-ui/dist/style/components/list.scss";
+
+body {
+  overflow: hidden;
+  font-size: $size-normal;
+}
+
+.taro_router {
+  background-color: $bg-color;
+}
+
+.at-nav-bar {
+  background-color: $header-bg-color;
+
+  .at-nav-bar__title {
+    color: #fff;
+  }
+}
+
+.white-color{
+  color: #fff;
+}
+
+.sm-size{
+  font-size: $size-small;
+}
+
+.mt-2{
+  margin-top: 20px;
+}

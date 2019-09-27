@@ -1,0 +1,30 @@
+@import '../../pages/style.scss';
+
+.tab-container {
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.tab-btn-c {
+  display: flex;
+  padding: 10px 14px;
+
+  .tab-btn-i {
+    white-space: nowrap;
+    flex: 1;
+    text-align: center;
+  }
+
+  .tab-btn {
+    padding: 6px 16px;
+    color: $gray-color;
+    display: inline-block;
+    width: 3em;
+    
+    &.active {
+      background-color: $bg-blue-color;
+      color: $blue-color;
+      border-radius: 40px;
+    }
+  }
+}

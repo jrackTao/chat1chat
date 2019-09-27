@@ -1,0 +1,51 @@
+@import '../../pages/style.scss';
+
+.search-input-container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 2px 12px;
+  position: relative;
+  background-color: #fff;
+  .icon-search {
+    position: absolute;
+    left: 28px;
+    top: 28px;
+    color: $gray-color;
+  }
+}
+
+.search-input {
+  background-color: #f5f6fa;
+  color: #c0c2cc;
+  padding: 16px 20px;
+  padding-left: 60px;
+  border-radius: 40px;
+  width: 100%;
+}
+
+.search-input-c {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  &.init {
+    .search-input {
+      text-align: center;
+    }
+
+    .icon-search {
+      left: 328px;
+    }
+
+    .search-input-cancel {
+      display: none;
+    }
+  }
+}
+
+.search-input-cancel {
+  text-align: center;
+  width: 4em;
+  color: #8d83ce;
+}

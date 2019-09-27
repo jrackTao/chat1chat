@@ -1,0 +1,29 @@
+@import '../theme.scss';
+
+.ms-container {
+  background-color: #fff;
+}
+
+.badge {
+  background-color: red;
+  color: #fff;
+  border-radius: 40px;
+  padding: 8px 14px;
+  height: 28px;
+  display: inline-block;
+  line-height: 30px;
+  font-size: 28px;
+  text-align: center;
+}
+
+
+.message-i {
+  .time {
+    font-size: $size-small;
+    color: $light-color;
+  }
+
+  .hint {
+    text-align: right;
+  }
+}
