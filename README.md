@@ -1,9 +1,8 @@
 ## chat1chat
 一个简单的IM demo，基于taro
 
-## 安装（只调试过h5,如果需要导出小程序请自行调试）
-yarn install
-npm run dev:h5
+## 安装和运行（只调试过h5,如果需要导出小程序请自行调试）
+yarn install && npm run dev:h5
 
 ##### [源码地址(Source address)](https://github.com/jrackTao/chat1chat)
 
